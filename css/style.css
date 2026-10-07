@@ -1,0 +1,42 @@
+body {
+    font-family: Courgette, sans-serif;
+    background-color: rgb(141, 200, 232); 
+    margin: 20px;
+}
+
+h1 {
+    color: #4700ccf4;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+
+}
+
+h2{
+    color:#771c9e;
+
+}
+
+ nav a {
+    color:darkblue;
+    text-decoration: none;
+    margin-right: 10px;
+ }
+
+ p {
+    font-size: 16px;
+    line-height: 1.5;
+ }
+ 
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+.qwe{
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
