@@ -1,30 +1,39 @@
 body {
     font-family: Courgette, sans-serif;
-    background-color: rgb(141, 200, 232); 
+    background-color: rgba(222, 162, 214, 0.533); 
     margin: 20px;
 }
 
 h1 {
-    color: #4700ccf4;
+    color: #8b53f4f4;
     text-align: center;
 }
 
 hr {
     border: none;
-    border-top: 2px solid black;
+    border-top: 2px solid rgba(234, 26, 113, 0.367);
 
 }
 
 h2{
-    color:#771c9e;
+    color:#b835e4a2;
 
 }
 
  nav a {
-    color:darkblue;
+    background-color: rgba(235, 125, 143, 0.462);
+    color:rgba(103, 4, 105, 0.495);
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(129, 6, 131, 0.547);
  }
+
+    nav a:hover {
+        background-color: rgba(235, 125, 143, 0.8);
+        color: #fff;
+    }
 
  p {
     font-size: 16px;
@@ -39,4 +48,29 @@ img {
   font-family: "Courgette", cursive;
   font-weight: 400;
   font-style: normal;
+}
+.special {
+  color: #6b3e5b;
+  background-color: #fff0f5;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid #d8a7b1;
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+}
+.about-page{
+  background-image: url('/Users/anutka/Documents/GitHub/WebDev_Project_EnchantedLocks/salon.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-page{
+  background-image: url('/Users/anutka/Documents/GitHub/WebDev_Project_EnchantedLocks/photo_2026-11-04_17-35-43.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
