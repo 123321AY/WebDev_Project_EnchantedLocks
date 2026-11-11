@@ -73,4 +73,44 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+  }
+  .home-page p,
+  .about-page p {
+    background-color: rgba(255, 240, 245, 0.85);
+    color: #5a3050;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .home-page h2,
+  .about-page h2 {
+    background-color: rgba(255, 240, 245, 0.85);
+    color: #6b205f;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .about-page h1 {
+    background-color: rgba(229, 204, 242, 0.95);
+    color: #602c59;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .about-page h2 {
+    background-color: rgba(229, 204, 242, 0.9);
+    color: #602c59;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .about-page p {
+    background-color: rgba(251, 233, 241, 0.95);
+    color: #602c59;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+  }
