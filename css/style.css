@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    color: #8b53f4f4;
+    color: #a65d80;
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ img {
   margin: auto;
 }
 .about-page{
-  background-image: url('../salon.webp');
+  background-image: url('../photo_2026-11-04_17-35-43.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,28 +85,28 @@ img {
 
   .home-page h2,
   .about-page h2 {
-    background-color: rgba(255, 240, 245, 0.85);
-    color: #6b205f;
+    background-color: rgba(248, 210, 228, 0.95);
+    color: #6c2860;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
   }
   .about-page h1 {
-    background-color: rgba(229, 204, 242, 0.95);
-    color: #602c59;
+    background-color: rgba(248, 210, 228, 0.95);
+    color: #6c2860;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
   }
   .about-page h2 {
-    background-color: rgba(229, 204, 242, 0.9);
+    background-color: rgba(245, 195, 218, 0.9);
     color: #602c59;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
   }
   .about-page p {
-    background-color: rgba(251, 233, 241, 0.95);
+    background-color: rgba(255, 230, 240, 0.95);
     color: #602c59;
     padding: 15px;
     border-radius: 10px;
@@ -114,3 +114,77 @@ img {
     line-height: 1.7;
     text-align: center;
   }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: #c47d9c;
+    color: white;
+}
+/* Mobile phones */
+@media (max-width: 599px) {
+    h1 {
+
+        font-size: 28px;
+
+    }
+    p {
+
+        font-size: 16px;
+
+    }
+    nav {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+    img {
+
+        max-width: 100%;
+
+        height: auto;
+
+    }
+    .special {
+
+        width: 100%;
+
+    }
+}
+/* Tablets */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    h1 {
+
+        font-size: 36px;
+
+    }
+
+    p {
+
+        font-size: 18px;
+
+    }
+
+}
+/* Desktop */
+@media (min-width: 1025px) {
+
+    h1 {
+
+        font-size: 48px;
+
+    }
+    p {
+
+        font-size: 20px;
+
+    }
+}
